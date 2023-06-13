@@ -26,11 +26,4 @@ const tempBoards = [...boards];
  
 ```
 
-## Collaborators
-1. Chinmay Jain, https://github.com/chinmay874
-2. Bablu Kumar, https://github.com/Bablukmr
-3. Ram Dayal, https://github.com/rdgupta280
-4. Gourav Dhankhar
-
-We are develope a project of Kanban-Board in React-js.
 
