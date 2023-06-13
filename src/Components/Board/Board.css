@@ -9,7 +9,7 @@
     /* border: 1px solid; */
     border-radius: 15px;
   }
-  
+
   .board_header {
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,6 @@
     gap: 10px;
     overflow-y: auto;
   }
-  
   .board_add-card {
     background-color: #fff;
     color: #000;
