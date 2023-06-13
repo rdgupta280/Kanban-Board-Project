@@ -1,0 +1,115 @@
+/* body {
+  background-image: url("../../../public/background.jpg");
+} */
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  border: 1px solid gray;
+}
+/* body {
+  background-image: url("../../../public/kanban_background.jpeg");
+  background-size: 100% auto;
+} */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_nav {
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  position: sticky;
+  /* background-color: rgba(255,255,255,0.60); */
+  /* background-image: linear-gradient(rgb(169, 220, 243), rgb(3, 44, 83)); */
+  background-color: hsl(1deg 17.5% 52.82%);
+  /* border-radius: 10px; */
+  font-size: 20px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_nav h1 {
+  min-width: 10%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.main_user {
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+}
+.main_user:hover {
+  background-color: #71ca8c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.background_color {
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+ color: #fff;
+}
+.background_color:hover{
+  background-color: #3ca0ac;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.background_image{
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: 40%;
+}
+.background_image:hover{
+  background-color: #605595;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.main_boards_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+.main_boards {
+  height: 100%;
+  width: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.main_boards_last {
+  flex-basis: 290px;
+  min-width: 290px;
+}
+
+.main_boards_add-board {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: center;
+}
+.main_boards_add-board_edit {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
