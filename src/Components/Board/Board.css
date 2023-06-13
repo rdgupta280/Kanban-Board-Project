@@ -42,6 +42,7 @@
     width: 150px !important;
     cursor: default;
   }
+
   .board_dropdown p {
     border-bottom: 1px solid #f8f8f8;
     cursor: pointer;
@@ -66,11 +67,13 @@
     width: 100%;
     text-align: center;
   }
+
   .board_add-card_edit {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
   }
+  
   .custom-scroll{
     
   }
